@@ -55,7 +55,7 @@
     timeoutId = setTimeout(() => {
       next.click();
       playSlideshow();
-    }, 1000);
+    }, 3000);
   }
 
   let isPlaying = false;
