@@ -86,4 +86,14 @@ nav li:hover {
     max-width: 500px;
     max-height: 500px;
   }
+
+  .thumbnails img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .thumbnails {
+    grid-template-columns: repeat(3, 100px);
+    gap: 3px;
+  }
 }
