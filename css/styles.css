@@ -77,3 +77,13 @@ nav li:hover {
   width: 56px;
   height: 56px;
 }
+
+@media (max-width: 750px) {
+  .top-heading {
+    font-size: 38px;
+  }
+  img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
